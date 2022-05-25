@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Best School" > "/shell/io_redirections_and_filters/\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
