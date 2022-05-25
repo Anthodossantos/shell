@@ -1,2 +1,2 @@
 #!/bin/bash
-logdir=/etc/passwd
+echo $(less /etc/passwd)
