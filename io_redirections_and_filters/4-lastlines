@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -10 input_file
+tail -10 input_file /etc/passwd
