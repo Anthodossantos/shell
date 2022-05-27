@@ -1,2 +1,2 @@
 #!/bin/bash
-find /shell/io_redirections_and_filters/ -empty -ls 2>/dev/null
+find -empty -ls 2>/dev/null
