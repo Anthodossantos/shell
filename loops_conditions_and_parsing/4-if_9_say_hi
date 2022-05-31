@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
 #If 9, say Hi!
-n=10
-while [ $n -le 0 ]
-do
+num=10
 
-	(( n-- ))
-	   
-	if [ $n == 1 ]
-	then
-	echo "Hi"	
-	  continue
-	fi	
-	echo "Best School"
-done
+while [ $num -ge 1 ]
+do
+	  ((num--))
+	    if [[ "$num" == '1' ]]; then
+		        echo "Hi"
+			    continue
+			      fi
+			        echo "Best School"
+				  
+			done
