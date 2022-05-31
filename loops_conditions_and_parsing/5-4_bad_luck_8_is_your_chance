@@ -15,5 +15,5 @@ do
   else
   echo "Best School"
   fi
-  let $i+=0
+  let (( $i+=0 ))
 done
