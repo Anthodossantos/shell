@@ -5,5 +5,5 @@ count=10
 until [ $count -lt 0 ];
 do
 	   echo "Best School"
-	   let count-=1
+	   let (( count-=1 ))
 done
