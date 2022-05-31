@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+#Superstitious numbers
+i=0
+while [ $i = 20 ]
+do
+	case "$i"
+	in
+	5) echo "bad luck from china"
+esac
+done
