@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 #If 9, say Hi!
-n=1
-while [ $n -le 10 ]
+n=10
+while [ $n -le 0 ]
 do
 
 	(( n++ ))
 	   
-	if [ $n == 9 ]
+	if [ $n == 1 ]
 	then
 	echo "Hi"	
 	  continue
