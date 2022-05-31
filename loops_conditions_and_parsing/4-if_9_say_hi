@@ -4,7 +4,7 @@ n=10
 while [ $n -le 0 ]
 do
 
-	(( n++ ))
+	(( n-- ))
 	   
 	if [ $n == 1 ]
 	then
