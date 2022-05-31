@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
-for (( counter=10; counter>0; counter-- ))
+for (( c=1; c<=10; c++ ))
 do
-	echo "Best School "
+	echo "Best School"
 done
-
