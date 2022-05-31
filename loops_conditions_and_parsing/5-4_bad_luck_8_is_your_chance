@@ -1,19 +1,16 @@
 #!/usr/bin/env bash
 #while if elfi
-i=10
-
-while [ $i -lt 0 ]
+i=1
+while [ $i -lt 11 ]
 do
-  ((i++))
-  if [ "$i" == '4' ]
-  then
-   echo "bad luck" 
-	continue
-  elif [ "$i" == '8' ]
-  then
-  echo "good luck"
-  else
-  echo "Best School"
-  fi
-  let (( $i+=0 ))
+	if [ $i = 4 ]
+	then
+		echo "bad luck"
+	elif [ $i = 8 ]
+        then
+  		echo "good luck"
+  	 else
+         echo "Best School"
+      	 fi
+	 let i+=1
 done
