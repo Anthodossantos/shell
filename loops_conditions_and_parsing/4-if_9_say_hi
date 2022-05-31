@@ -6,8 +6,9 @@ do
 
 	(( n++ ))
 	   
-	if [ $n == 999999999
-	echo Hi	
+	if [ $n == 9
+	then
+	echo "Hi"	
 	  continue
 	fi	
 	echo "Best School"
