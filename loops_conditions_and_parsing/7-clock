@@ -2,7 +2,7 @@
 # clock
 
 h=0
-while [ $h -lt 12 ]
+while [ $h -lt 13 ]
 do
 	echo "hour: $h"
 	m=1
