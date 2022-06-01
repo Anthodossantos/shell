@@ -10,5 +10,7 @@ do
 	do
 		echo $m
 		(( m+=1 ))
-done
 	done
+	(( h+=1 ))
+done
+
