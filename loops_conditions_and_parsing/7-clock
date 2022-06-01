@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# clock
+
+i=0
+while [ $i -lt 60 ]
+do
+	if [ $i = 0 ]
+	then
+		echo "Hour: 0"
+	elif [ $i = 60 ]
+        then
+  		echo "Hour: 1"
+       	 fi
+	 (( i+=1 ))
+done
