@@ -4,7 +4,7 @@
 h=0
 while [ $h -lt 12 ]
 do
-	echo "h: $hours"
+	echo "hour: $h"
 	m=1
 	while [ $m -lt 60 ]
 	do
