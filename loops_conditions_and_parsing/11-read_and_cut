@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#read and cut
+input=/etc/passwd
+while IFS= read -r line
+do
+echo
+
+done < $input
