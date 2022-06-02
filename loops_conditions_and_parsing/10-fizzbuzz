@@ -3,13 +3,13 @@
 num=100
 for i in $(seq 1 $num)
 do
-	if  $i % 3 == 0 && $i % 5 == 0 
+	if  $i % 3 == 0 && $i % 5 == 0: 
 	then 
 		echo "FizzBuzz"
-	if  $i % 3 == 0 
+	if  $i % 3 == 0:
 	then
 		echo "Fizz"
-	if  $i % 5 == 0 
+	if  $i % 5 == 0:
 	then
 		echo "buzz"
 	else 
