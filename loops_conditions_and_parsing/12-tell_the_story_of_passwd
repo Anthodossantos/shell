@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Tell the story of passwd
 input=/etc/passwd
-while IFS=: read -r user enpass uid gid desc home shell
+while IFS=: read -r user uid desc home shell
 do 
-	[ $uid -ge 500 ] && echo "User $user ($uid) assigned \"$home\" home directory with $shell shell."
+	[ "$uid" -ge 500 ] && echo "User $user ($uid) assigned \"$home\" home directory with $shell shell."
 done < $input
