@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #FizzBuzz
-num=100
-for i in $(seq 1 $num)
+num=1
+for i in $(seq 100 $num)
 do
 	if (( $i % 3 == 0 && $i % 5 == 0 ))
 	then 
@@ -17,5 +17,5 @@ do
 	fi
 	fi
 	fi
-
+	((num++))
 done
