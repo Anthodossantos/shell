@@ -15,4 +15,7 @@ do
 	else 
 		echo "$i"
 	fi
+	fi
+	fi
+
 done
