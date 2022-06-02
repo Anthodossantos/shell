@@ -16,5 +16,4 @@ do
 	fi
 	fi
 	fi
-	((num++))
 done
