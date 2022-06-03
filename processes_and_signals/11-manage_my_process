@@ -17,7 +17,8 @@ then
       ./manage_my_process &
       echo $$ > /var/run/my_process.pid
       echo "manage_my_process restarted"
+elif  rm /var/run/my_process.pid
 else
       echo "Usage: manage_my_process {start|stop|restart}"
-      rm /var/run/manage_my_process.pid
+      
 fi
