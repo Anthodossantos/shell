@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #stop me if you can
-ctrl c
+ctrl-c
