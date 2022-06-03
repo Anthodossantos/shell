@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#process and pid file
+sudo touch /var/run/myscript.pid
