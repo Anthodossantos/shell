@@ -2,22 +2,22 @@
 # Manages 'manage_my_process'
 if [ "$1" = "start" ]
 then
-        sudo ./manage_my_process
-	sudo bash -c "echo $$ > /var/run/my_process.pid"
-        sudo echo "manage_my_process started"
+         ./manage_my_process
+	 bash -c "echo $$ > /var/run/my_process.pid"
+         echo "manage_my_process started"
 elif [ "$1" = "stop" ]
 then
-	sudo kill -15 /var/run/my_process.pid
-	sudo rm -f /var/run/my_process.pid
-        sudo echo "manage_my_process stopped"
+	 kill -15 /var/run/my_process.pid
+	 rm -f /var/run/my_process.pid
+         echo "manage_my_process stopped"
 
 elif [ "$1" = "restart" ]
 then
-        sudo kill -15 /var/run/my_process.pid
-        sudo rm /var/run/my_process.pid
-        sudo ./manage_my_process 
-	sudo echo $! > /var/run/my_process.pid
-	sudo echo "manage_my_process restarted"
+         kill -15 /var/run/my_process.pid
+         rm /var/run/my_process.pid
+         ./manage_my_process 
+	 echo $! > /var/run/my_process.pid
+	 echo "manage_my_process restarted"
 
 else
         echo "Usage: manage_my_process {start|stop|restart}"
