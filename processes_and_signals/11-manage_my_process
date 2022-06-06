@@ -10,6 +10,7 @@ then
 	sudo pkill -f ./manage_my_process
         sudo rm -f /var/run/my_process.pid
         echo "manage_my_process stopped"
+fi
 if [ "$1" = "restart" ]
 then
         sudo pkill -f /var/run/my_process.pid
@@ -17,8 +18,7 @@ then
         ./manage_my_process &
         echo $! > /var/run/my_process.pid
 	echo "manage_my_process restarted"
+fi
 else
         echo "Usage: manage_my_process {start|stop|restart}"
-fi
-fi
 fi
